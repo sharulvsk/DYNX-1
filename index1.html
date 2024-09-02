@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Exploration</title>
+    <style>
+        body {
+            background: url('https://source.unsplash.com/1600x900/?space,galaxy') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffcc00;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        button {
+            background-color: #ffcc00;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ffaa00;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        form {
+            margin: 20px auto;
+            max-width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        }
+        input[type="text"], input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+        }
+        input[type="submit"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 5px solid #fff; /* Adding border to images and videos */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img src="local-image.jpg" alt="Local Cosmic Image">
+
+    <img src="https://via.placeholder.com/400x300?text=Cosmic+Image" alt="CDN Cosmic Image">
+
+    <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <form>
+        <label for="username">USERNAME:</label><br>
+        <input type="text" id="username" name="username" placeholder="ENTER USERNAME"><br>
+        <label for="password">PASSWORD:</label><br>
+        <input type="password" id="password" name="password" placeholder="ENTER PASSWORD"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Galactic Adventures</h1>
+    <p>Explore the universe with us and discover the wonders of the cosmos.</p>
+    <ul>
+        <li>Stunning Nebulae</li>
+        <li>Mysteries of Black Holes</li>
+        <li>Exoplanet Discoveries</li>
+    </ul>
+</body>
+</html>
